@@ -67,3 +67,31 @@ pm2 stop shishikangh // 停止任务
     }
 
 ```
+***
+* Ubuntu系统安装nodejs及nodejs升级
+  * 安装
+    ```
+    sudo apt-get install nodejs
+    sudo apt-get install npm
+    ```
+    
+  * 升级
+  ```
+  sudo npm install -g n
+  
+  sudo n stable # latest #(升级node.js到最新版) stable #（升级node.js到最新稳定版）
+  node -v
+  npm -v
+  ```
+  * 输出
+    ```
+    sudo n stable
+    //  提示了要重启终端或者执行 PATH="$PATH"
+    ```
+
+  * 卸载
+    ```
+    sudo npm uninstall npm -g
+    sudo apt-get remove nodejs
+
+    ```
