@@ -79,13 +79,13 @@ pm2 stop shishikangh // 停止任务
   ```
   sudo npm install -g n
   
-  sudo n stable # latest #(升级node.js到最新版) stable #（升级node.js到最新稳定版）
+  sudo n lts # latest #(升级node.js到最新版) stable #（升级node.js到最新稳定版）
   node -v
   npm -v
   ```
   * 输出
     ```
-    sudo n stable
+    sudo n lts
     //  提示了要重启终端或者执行 PATH="$PATH"
     ```
 
