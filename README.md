@@ -79,7 +79,7 @@ pm2 stop shishikangh // 停止任务
   ```
   sudo npm install -g n
   
-  sudo n lts # latest #(升级node.js到最新版) stable #（升级node.js到最新稳定版）
+  sudo n lts # latest #(升级node.js到最新版) stable #（升级node.js到最新稳定版） lts 安装最新长期维护版(lts)Node
   node -v
   npm -v
   ```
